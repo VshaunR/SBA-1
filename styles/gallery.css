@@ -1,16 +1,19 @@
 .gallery {
 display: flex;
-gap: 25px;
+gap: 50px;
 margin: 1rem;
 flex-wrap: wrap;
 justify-content: space-evenly;
+align-items: center;
 }
 .gallery-image{
   border-radius: 20%;
-  transition: all ease-out .5s;
+ height: 300px;
+ transition: all ease-out .5s;
 }
 
 .gallery-image:hover{
-  width: 400px;
+  width: 330px;
+  height: 330px;
   transition: all ease-in .5s;
 }

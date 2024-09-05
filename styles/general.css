@@ -4,9 +4,13 @@
     padding: 0;
     font-size: 1rem;
     font-family: sans-serif;
-
+    display: grid;
   }
-  
+  html{
+    margin: 0;
+    padding: 0;
+   
+  }
   a{
     text-decoration: none;
   
@@ -23,11 +27,12 @@
                         
   
     grid-template-rows: auto 1fr auto;
-  
+    grid-template-columns: 1fr;
     justify-content: center;
-    align-items: center;
+    
     height: 100vh;
     height: 100dvh;
+ 
   }
   
   
@@ -43,15 +48,17 @@
   .header{
     background-color: black;
     padding: 1rem;
+    width: 100%;
   }
   .navbar{
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+  
   }
   .menu{
     display: flex;
     gap: 35px;
+ 
   }
   .logo{
     display: flex;
@@ -67,14 +74,16 @@
   }
   
   .main{
+   
     display: flex;
     gap: 95px;
-    margin: 1.5rem;
+   
     padding: 1rem;
     justify-content: center;
     align-items: center;
   }
   .footer{
+    width: 100%;
     background-color: black;
     padding: 1rem;
     margin-top: 1rem;

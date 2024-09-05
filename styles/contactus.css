@@ -1,0 +1,52 @@
+.contact-hours{
+  margin: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 1px solid black;
+  display: flex;
+}
+.days{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.day{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.contact-us{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.contact-form{
+  display: grid;
+  gap: 30px;
+  margin: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+input{
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(212, 218, 223);
+  width: 100%;
+}
+textarea{
+  resize: none;
+  background-color: rgb(212, 218, 223);
+  border-radius: 10px;
+  width: 100%;
+  padding: 1rem;
+}
+.btn{
+  color: white;
+  background-color:rgb(14, 185, 128) ;
+  font-size: 1rem;
+  width: fit-content;
+}

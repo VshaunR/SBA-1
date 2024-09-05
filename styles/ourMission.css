@@ -1,0 +1,32 @@
+.our-mission{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mission{
+  text-decoration: underline;
+}
+.mission-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  margin: 1rem;
+  padding: 1rem;
+}
+.mission-image{
+  border-radius: 10px;
+}
+
+.mission-item{
+  list-style: circle;
+  line-height: 25px;
+  font-weight: bold;
+  transition: all ease-out .5s;
+}
+.mission-item:hover{
+  font-size: 2rem;
+  line-height: 35px;
+  transition: all ease-in 1s;
+}
