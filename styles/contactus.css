@@ -50,3 +50,18 @@ textarea{
   font-size: 1rem;
   width: fit-content;
 }
+.gif-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.gif{
+  border-radius: 10px;
+}
+.sel{
+  padding: 1rem;
+  border: none;
+  background-color: rgb(212, 218, 223);
+  border-radius: 10px;
+}
