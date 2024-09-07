@@ -1,0 +1,20 @@
+.question-list{
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  text-align: start;
+  gap: 20px;
+}
+li{
+list-style:decimal ;
+}
+.question{
+  transition: all ease-out .5s;
+}
+.question:hover{
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: all ease-in .5s;
+  background-color: rgb(214, 214, 214);
+}
