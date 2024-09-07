@@ -15,10 +15,16 @@
   display: flex;
   gap: 20px;
   justify-content: center;
+ 
+}
+.office-hours{
+  margin: 0;
 }
 .contact-us{
   display: flex;
   justify-content: center;
+
+  text-align: center;
   padding: 1rem;
   margin: 1rem;
 }
@@ -64,4 +70,8 @@ textarea{
   border: none;
   background-color: rgb(212, 218, 223);
   border-radius: 10px;
+}
+.service-label{
+  
+  font-weight: bold;
 }
